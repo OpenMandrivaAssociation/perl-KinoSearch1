@@ -17,8 +17,8 @@ BuildRequires: perl(ExtUtils::ParseXS)
 BuildRequires: perl(Lingua::Stem::Snowball)
 BuildRequires: perl(Lingua::StopWords)
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl-devel
 
-BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
