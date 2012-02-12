@@ -48,6 +48,3 @@ rm -rf %buildroot
 %doc META.yml README Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
-/usr/lib/debug/*
-/usr/src/debug/*
-
