@@ -41,3 +41,21 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc META.yml README Changes
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
+
+%changelog
+* Sun Feb 12 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.10.0-2
++ Revision: 773607
+- cleanout spec
+- fix duplicated debug files
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Fri Nov 12 2010 Jérôme Quelin <jquelin@mandriva.org> 1.10.0-1mdv2011.0
++ Revision: 596735
+- update to 1.01
+
+* Sat Sep 04 2010 Jérôme Quelin <jquelin@mandriva.org> 1.0.0-1mdv2011.0
++ Revision: 575788
+- pkg is arch dependent
+- import perl-KinoSearch1
+
