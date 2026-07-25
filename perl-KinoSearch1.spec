@@ -2,14 +2,14 @@
 %define upstream_version 1.01
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Surround highlight bits with tags
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module//%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/KinoSearch1
+Source0:	https://cpan.metacpan.org/authors/id/C/CR/CREAMYG/KinoSearch1-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(Compress::Zlib)
